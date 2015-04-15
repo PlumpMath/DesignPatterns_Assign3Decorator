@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace Assign3Dectorator
 {
+    delegate T SelfApplicable<T>(SelfApplicable<T> self, T list, Tree t);
     public abstract class Tree
     {
         private decimal _cost;
         private string _name;
         private Tree _decorator;
-        private static Lazy<Star> _star;
+        private static bool _hasStar;
 
         public Tree()
         {}
@@ -26,31 +27,34 @@ namespace Assign3Dectorator
         {
             _cost = cost;
             _name = name;
-            if(this is Star)
-            {
-                if(_star!=null)
-                {
-                    Console.WriteLine("Tree already has a Star!");
-                    _decorator = t.Decorator;
-                }
-                else
-                {
-                    _star = new Lazy<Star>();
-                    _decorator = t;
-                }
-            }
-            else
-            {
-                _decorator = t;
-            }
+            _decorator = t;
             
         }
 
         public virtual decimal Cost
         {
             get 
-            { 
-                return _cost; 
+            {
+                decimal temp = 0;
+                temp = this._cost;
+                Tree t;
+                t = _decorator;
+                
+                //loop through the decorators since this way it is easier to add the cost of the Star
+                //then it is with recursion
+                while(t != null)
+                {
+                    temp += t._cost;
+                    t = t._decorator;
+                }
+                
+                if(_hasStar)
+                {
+                    temp += Star.Cost;
+                }
+
+
+                return temp;
             }
         }
 
@@ -71,9 +75,35 @@ namespace Assign3Dectorator
         {
             StringBuilder s = new StringBuilder();
             List<string> str = new List<string>();
-            str = PrintTreeHelper(str);
+
+            //rescursive lambdas for fun and profit
+            //gets a list of decorators starting with the tree and building the list up from there
+            SelfApplicable<List<string>> printHelper = (fun, y, t) =>
+            {
+                if(t._decorator == null)
+                {
+                    y.Add(t._name);
+                }
+                else
+                {
+                    fun(fun, y, t._decorator);
+                    y.Add(t._name);
+                }
+                return y;
+            };
+
+            str = printHelper(printHelper,str,this);
+
             s.Append(str[0]);
-            s.Append(" tree decorated with");
+            s.Append(" tree decorated with ");
+            //to handle if the tree has a star
+            if(_hasStar)
+            {
+                s.Append(Star.Name);
+                
+            }
+
+
             for (int i = 1; i < str.Count;i++ )
             {
                 s.Append(", "+str[i]);
@@ -86,16 +116,10 @@ namespace Assign3Dectorator
 
         }
 
-        private List<string> PrintTreeHelper(List<string> s)
+        public bool HasStar
         {
-            if(_decorator == null)
-            {
-                s.Add(_name);
-                return s;
-            }
-            s = _decorator.PrintTreeHelper(s);
-            s.Add(_name);
-            return s;
+            set { _hasStar = value; }
+            get { return _hasStar; }
         }
 
     }

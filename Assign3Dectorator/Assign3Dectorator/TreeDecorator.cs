@@ -13,13 +13,5 @@ namespace Assign3Dectorator
 
         public TreeDecorator(decimal cost, string name, Tree t) : base(cost,name,t)
         {}
-
-        public override decimal Cost
-        {
-            get
-            {
-                return Decorator.Cost + base.Cost;
-            }
-        }
     }
 }

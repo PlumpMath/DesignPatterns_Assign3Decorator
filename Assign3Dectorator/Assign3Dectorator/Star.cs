@@ -6,9 +6,26 @@ using System.Threading.Tasks;
 
 namespace Assign3Dectorator
 {
-    public class Star : TreeDecorator
+    public class Star
     {
-        public Star(Tree t) : base(4,"Star",t)
+        //this is an easy way to have the singleton pattern
+        public static Lazy<Star> _Star = new Lazy<Star>(true);
+        private const decimal starCost = 4;
+        private const string _name = "Star";
+        private Star()
         {}
+
+        public static decimal Cost
+        {
+            get
+            {
+                return starCost;
+            }
+        }
+
+        public static string Name
+        {
+            get { return _name; }
+        }
     }
 }

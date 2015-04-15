@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assign3Dectorator", "Assign3Dectorator\Assign3Dectorator.csproj", "{34989C12-BB6F-4218-A350-94F9A5026225}"
 EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "ModelingProject1", "ModelingProject1\ModelingProject1.modelproj", "{7259473C-1E09-4EE8-B1E1-C3E5515D6D6F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{34989C12-BB6F-4218-A350-94F9A5026225}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34989C12-BB6F-4218-A350-94F9A5026225}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34989C12-BB6F-4218-A350-94F9A5026225}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7259473C-1E09-4EE8-B1E1-C3E5515D6D6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7259473C-1E09-4EE8-B1E1-C3E5515D6D6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7259473C-1E09-4EE8-B1E1-C3E5515D6D6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7259473C-1E09-4EE8-B1E1-C3E5515D6D6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
