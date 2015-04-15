@@ -72,6 +72,7 @@
       <class
         Id="9f9402a3-89e0-45b5-9a4c-c933a1ada857"
         name="Lazy&lt;Star‎&gt;"
+        visibility="Private"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
@@ -150,6 +151,7 @@
       <class
         Id="0046fd09-6490-4530-908c-6326d36f88ac"
         name="Lazy"
+        visibility="Private"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">

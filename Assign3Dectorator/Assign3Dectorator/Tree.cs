@@ -13,7 +13,7 @@ namespace Assign3Dectorator
         private string _name;
         private Tree _decorator;
         private static bool _hasStar;
-
+        
         public Tree()
         {}
 

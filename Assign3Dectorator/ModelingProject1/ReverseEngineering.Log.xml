@@ -6,93 +6,97 @@
   <MessageClass Name="Error" Label="Error" Option="Show errors" />
   <MessageClass Name="Property" Label="Property" Option="Show metadata" />
   <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
-  <Message Timestamp="2015-04-10T16:03:20" Importance="High" Text="Reverse Engineering Started." />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'c57c3207-41eb-47e3-8ff1-eae5ea86b179' -  (ClassifierTemplateParameter)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'de97cd5b-5b4f-4e12-97a7-cd1ed396b76a' -  (ClassifierTemplateParameter)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator' -  (Package)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::BallsBlue' -  (Class)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::BallsBlue::BallsBlue' -  (Operation)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::BallsBlue::BallsBlue::t' -  (Parameter)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::BallsRed' -  (Class)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::BallsRed::BallsRed' -  (Operation)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::BallsRed::BallsRed::t' -  (Parameter)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::BallsSilver' -  (Class)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::BallsSilver::BallsSilver' -  (Operation)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::BallsSilver::BallsSilver::t' -  (Parameter)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::BalsamFir' -  (Class)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::BalsamFir::BalsamFir' -  (Operation)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::ColoradoBlueSpruce' -  (Class)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::ColoradoBlueSpruce::ColoradoBlueSpruce' -  (Operation)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::DouglasFir' -  (Class)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::DouglasFir::DouglasFir' -  (Operation)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::FraserFir' -  (Class)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::FraserFir::FraserFir' -  (Operation)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::LEDS' -  (Class)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::LEDS::LEDS' -  (Operation)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::LEDS::LEDS::t' -  (Parameter)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Lights' -  (Class)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Lights::Lights' -  (Operation)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Lights::Lights::t' -  (Parameter)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Program' -  (Class)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Program::Main' -  (Operation)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Program::Main::args' -  (Parameter)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Program::Program' -  (Operation)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Ribbons' -  (Class)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Ribbons::Ribbons' -  (Operation)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Ribbons::Ribbons::t' -  (Parameter)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Ruffles' -  (Class)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Ruffles::Ruffles' -  (Operation)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Ruffles::Ruffles::t' -  (Parameter)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Star' -  (Class)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Star::Star' -  (Operation)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Star::Star::t' -  (Parameter)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Tree' -  (Class)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Tree::_cost' -  (Property)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Tree::_decorator' -  (Property)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Tree::_name' -  (Property)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Tree::_star' -  (Property)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Tree::Cost' -  (Property)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Tree::Decorator' -  (Property)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Tree::Name' -  (Property)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Tree::PrintTree' -  (Operation)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Tree::PrintTreeHelper' -  (Operation)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Tree::PrintTreeHelper::s' -  (Parameter)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Tree::Tree' -  (Operation)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Tree::Tree::cost' -  (Parameter)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Tree::Tree::name' -  (Parameter)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Tree::Tree::t' -  (Parameter)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::TreeDecorator' -  (Class)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::TreeDecorator::Cost' -  (Property)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::TreeDecorator::TreeDecorator' -  (Operation)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::TreeDecorator::TreeDecorator::cost' -  (Parameter)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::TreeDecorator::TreeDecorator::name' -  (Parameter)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::TreeDecorator::TreeDecorator::t' -  (Parameter)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System' -  (Package)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Collections' -  (Package)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Collections::Generic' -  (Package)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Collections::Generic::List' -  (Class)   (partially reverse engineered - definition not updated) " />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Collections::Generic::List&lt;String‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Decimal' -  (Class)   (partially reverse engineered - definition not updated) " />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Lazy' -  (Class)   (partially reverse engineered - definition not updated) " />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Lazy&lt;Star‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::Assign3Dectorator::FraserFir to ModelingProject1::Assign3Dectorator::Tree (Generalization)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::Assign3Dectorator::LEDS to ModelingProject1::Assign3Dectorator::TreeDecorator (Generalization)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::Assign3Dectorator::Lights to ModelingProject1::Assign3Dectorator::TreeDecorator (Generalization)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::Assign3Dectorator::Ribbons to ModelingProject1::Assign3Dectorator::TreeDecorator (Generalization)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::Assign3Dectorator::Ruffles to ModelingProject1::Assign3Dectorator::TreeDecorator (Generalization)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::Assign3Dectorator::Star to ModelingProject1::Assign3Dectorator::TreeDecorator (Generalization)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::Assign3Dectorator::Tree to ModelingProject1::System::Decimal (Association)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::Assign3Dectorator::Tree to ModelingProject1::Assign3Dectorator::Tree (Association)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::Assign3Dectorator::TreeDecorator to ModelingProject1::System::Decimal (Association)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::Assign3Dectorator::TreeDecorator to ModelingProject1::Assign3Dectorator::Tree (Generalization)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::Assign3Dectorator::BallsBlue to ModelingProject1::Assign3Dectorator::TreeDecorator (Generalization)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::Assign3Dectorator::BallsRed to ModelingProject1::Assign3Dectorator::TreeDecorator (Generalization)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::Assign3Dectorator::BallsSilver to ModelingProject1::Assign3Dectorator::TreeDecorator (Generalization)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::Assign3Dectorator::BalsamFir to ModelingProject1::Assign3Dectorator::Tree (Generalization)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::Assign3Dectorator::ColoradoBlueSpruce to ModelingProject1::Assign3Dectorator::Tree (Generalization)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::Assign3Dectorator::DouglasFir to ModelingProject1::Assign3Dectorator::Tree (Generalization)" />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="High" Text="(15) type(s) fully reverse engineered." />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="High" Text="(5) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
-  <Message Timestamp="2015-04-10T16:03:26" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+  <Message Timestamp="2015-04-15T15:31:30" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: '4a1aa14b-9dcb-4974-b3cd-af4a380472b0' -  (ClassifierTemplateParameter)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Boolean' -  (PrimitiveType)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'c57c3207-41eb-47e3-8ff1-eae5ea86b179' -  (ClassifierTemplateParameter)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator' -  (Package)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::BallsBlue' -  (Class)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::BallsBlue::BallsBlue' -  (Operation)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::BallsBlue::BallsBlue::t' -  (Parameter)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::BallsRed' -  (Class)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::BallsRed::BallsRed' -  (Operation)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::BallsRed::BallsRed::t' -  (Parameter)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::BallsSilver' -  (Class)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::BallsSilver::BallsSilver' -  (Operation)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::BallsSilver::BallsSilver::t' -  (Parameter)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::BalsamFir' -  (Class)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::BalsamFir::BalsamFir' -  (Operation)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::ColoradoBlueSpruce' -  (Class)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::ColoradoBlueSpruce::ColoradoBlueSpruce' -  (Operation)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::DouglasFir' -  (Class)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::DouglasFir::DouglasFir' -  (Operation)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::FraserFir' -  (Class)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::FraserFir::FraserFir' -  (Operation)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::LEDS' -  (Class)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::LEDS::LEDS' -  (Operation)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::LEDS::LEDS::t' -  (Parameter)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Lights' -  (Class)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Lights::Lights' -  (Operation)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Lights::Lights::t' -  (Parameter)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Program' -  (Class)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Program::Main' -  (Operation)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Program::Main::args' -  (Parameter)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Program::Program' -  (Operation)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Ribbons' -  (Class)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Ribbons::Ribbons' -  (Operation)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Ribbons::Ribbons::t' -  (Parameter)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Ruffles' -  (Class)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Ruffles::Ruffles' -  (Operation)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Ruffles::Ruffles::t' -  (Parameter)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::SelfApplicable' -  (Class)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::SelfApplicable::Invoke' -  (Operation)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::SelfApplicable::Invoke::list' -  (Parameter)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::SelfApplicable::Invoke::self' -  (Parameter)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::SelfApplicable::Invoke::t' -  (Parameter)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::SelfApplicable&lt;T‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Star' -  (Class)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Star::_name' -  (Property)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Star::_Star' -  (Property)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Star::Cost' -  (Property)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Star::Name' -  (Property)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Star::Star' -  (Operation)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Star::starCost' -  (Property)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Tree' -  (Class)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Tree::_cost' -  (Property)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Tree::_decorator' -  (Property)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Tree::_hasStar' -  (Property)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Tree::_name' -  (Property)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Tree::Cost' -  (Property)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Tree::Decorator' -  (Property)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Tree::HasStar' -  (Property)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Tree::Name' -  (Property)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Tree::PrintTree' -  (Operation)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Tree::Tree' -  (Operation)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Tree::Tree::cost' -  (Parameter)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Tree::Tree::name' -  (Parameter)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::Tree::Tree::t' -  (Parameter)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::TreeDecorator' -  (Class)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::TreeDecorator::TreeDecorator' -  (Operation)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::TreeDecorator::TreeDecorator::cost' -  (Parameter)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::TreeDecorator::TreeDecorator::name' -  (Parameter)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::Assign3Dectorator::TreeDecorator::TreeDecorator::t' -  (Parameter)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System' -  (Package)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Decimal' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Lazy' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Lazy&lt;Star‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::Assign3Dectorator::ColoradoBlueSpruce to ModelingProject1::Assign3Dectorator::Tree (Generalization)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::Assign3Dectorator::DouglasFir to ModelingProject1::Assign3Dectorator::Tree (Generalization)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::Assign3Dectorator::FraserFir to ModelingProject1::Assign3Dectorator::Tree (Generalization)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::Assign3Dectorator::LEDS to ModelingProject1::Assign3Dectorator::TreeDecorator (Generalization)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::Assign3Dectorator::Lights to ModelingProject1::Assign3Dectorator::TreeDecorator (Generalization)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::Assign3Dectorator::Ribbons to ModelingProject1::Assign3Dectorator::TreeDecorator (Generalization)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::Assign3Dectorator::Ruffles to ModelingProject1::Assign3Dectorator::TreeDecorator (Generalization)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::Assign3Dectorator::Star to ModelingProject1::System::Decimal (Association)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::Assign3Dectorator::Tree to ModelingProject1::System::Decimal (Association)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::Assign3Dectorator::Tree to ModelingProject1::Assign3Dectorator::Tree (Association)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::Assign3Dectorator::TreeDecorator to ModelingProject1::Assign3Dectorator::Tree (Generalization)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::Assign3Dectorator::BallsBlue to ModelingProject1::Assign3Dectorator::TreeDecorator (Generalization)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::Assign3Dectorator::BallsRed to ModelingProject1::Assign3Dectorator::TreeDecorator (Generalization)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::Assign3Dectorator::BallsSilver to ModelingProject1::Assign3Dectorator::TreeDecorator (Generalization)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::Assign3Dectorator::BalsamFir to ModelingProject1::Assign3Dectorator::Tree (Generalization)" />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="High" Text="(16) type(s) fully reverse engineered." />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="High" Text="(4) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
+  <Message Timestamp="2015-04-15T15:31:36" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
 </Log>

@@ -79,7 +79,7 @@
         </generalsInternal>
         <ownedOperationsInternal>
           <operation
-            Id="08b68448-28f4-43e9-8fd6-cbc9892529ea"
+            Id="2ddb07a2-be79-411a-92ef-f9a9f272769a"
             name="FraserFir"
             isLeaf="false"
             isStatic="false"
@@ -88,54 +88,54 @@
             isQuery="false">
             <referencesInternal>
               <reference
-                Id="e16c2431-8b96-4387-81f6-a992cf3de4f1"
+                Id="de4010aa-908b-49f5-916e-7c619247ef0e"
                 handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3DFraserFir Member%3D.ctor"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
               <stereotypeInstance
-                Id="41b615f6-fcf9-4c9e-b8c7-3ed2a808f26c"
+                Id="0f480fc3-e099-4f02-bd01-df3271131a8c"
                 name="method"
                 profile="CSharpProfile">
                 <propertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="e20f3251-8219-402f-a4fe-c7196ba8a348">
+                    Id="a5f8df04-17b2-4925-8c41-43ae86537edf">
                     <propertyInstance
-                      Id="7ade7ffc-4e45-4fe4-bc8b-073d23748df8"
+                      Id="b3e790fc-f515-4898-bc6b-7ed527e0c786"
                       name="ClrAttributes" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="3f133656-467e-4d5f-a3e4-4c3a6ef00704">
+                    Id="479bb63f-d4d9-4afc-8604-bf33f64a616d">
                     <propertyInstance
-                      Id="137cc0b2-3204-49c8-b3d6-fb40b520d963"
+                      Id="3dface8b-0730-47f1-94cf-6dd650ea8b51"
                       name="IsPartial"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="ec46b494-6288-4816-aa20-39a0b8e64843">
+                    Id="9a32526a-0baf-4106-ac45-d40e780aa47d">
                     <propertyInstance
-                      Id="3ff1d667-b638-4109-a641-00f4dac7fc5f"
+                      Id="2ff1ef64-68b9-45c0-b020-c95c64ab3f7b"
                       name="IsUnsafe"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="7cf39780-b3bc-47c8-b195-8521f10abfa2">
+                    Id="fc8eb191-5554-4be6-8845-485dd2c64964">
                     <propertyInstance
-                      Id="53b76dfa-ed63-4327-96f1-fa726f904a60"
+                      Id="f8b5e0e1-8015-4840-a9b5-ae4f0ce663d5"
                       name="Inheritance"
                       value="none" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="f3eea885-7b5d-4beb-afc4-a6586c8cacef">
+                    Id="ef65d03c-3733-4148-a759-8529bd999dfc">
                     <propertyInstance
-                      Id="e81714d2-f0d7-4f2f-8e5a-b3dec1838973"
+                      Id="a02f666b-5be3-4a2f-8ffe-c30d8c11176a"
                       name="PackageVisibility"
                       value="internal" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="afb5fab7-176f-4306-a748-df76875d52e3">
+                    Id="4e30209a-7c6b-4926-94bb-af981c6374f7">
                     <propertyInstance
-                      Id="d9f13231-0734-443c-81b4-64545908f72a"
+                      Id="b1bb433a-8db2-4f2e-9d0b-bcbb41d571db"
                       name="params"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
@@ -779,8 +779,88 @@
             </type_NamedElement>
           </property>
           <property
-            Id="2da05a10-874b-43fa-b317-b4c49841a174"
-            name="_star"
+            Id="99b72e32-34af-4d3f-ba9a-81d8300ad4e1"
+            name="HasStar"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="edc09286-2d99-4a27-b95a-d6c1c9634c16"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3DTree Member%3DHasStar"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4bee474b-2c2d-4876-a9ce-0e4bb6ee4d72"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e15e7ea7-c4f1-4830-9121-840316fd1cdf">
+                    <propertyInstance
+                      Id="7ab6fdbe-b91e-43e0-9474-b22569dad9c4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0511e971-f306-4216-bd17-4c0876f6992d">
+                    <propertyInstance
+                      Id="33e9a4b3-7811-45e0-a3e1-38868786ec19"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="595fcd1f-1a70-476f-b38d-03fb8378c601">
+                    <propertyInstance
+                      Id="430fa91e-8b2d-424a-b806-2d38fa4ed723"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2d466337-a8b2-42a3-bee6-cbafd95b91e3">
+                    <propertyInstance
+                      Id="8554b7f6-ffa7-4146-add7-8a2dc4ae6902"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7833ac6f-c3cd-4c55-9172-96e1d3798024">
+                    <propertyInstance
+                      Id="47a08d91-0793-442e-823b-a0051486cbf7"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="78b5e1a8-02e4-4f1b-9a83-8e04c762042b">
+                    <propertyInstance
+                      Id="6f3cf09c-2b9d-468d-a685-9913c2c08332"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="efb43a6c-524a-407a-816d-6376018dfedd">
+                    <propertyInstance
+                      Id="4b0209f7-39b3-4577-a44a-3fbb7ad5a88e"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                LastKnownName="Boolean"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="bcb67225-9177-458c-9370-63b896d8929e"
+            name="_hasStar"
             visibility="Private"
             isLeaf="false"
             isStatic="true"
@@ -791,47 +871,47 @@
             isComposite="false">
             <referencesInternal>
               <reference
-                Id="86e8a233-cdb3-4028-96cf-ff0ffbdc7f82"
-                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3DTree Member%3D_star"
+                Id="dce75d5a-15b3-4fd2-b926-cc0182ef8652"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3DTree Member%3D_hasStar"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
               <stereotypeInstance
-                Id="eca44caf-f061-4d50-9777-94e98e7fe84c"
+                Id="a4126d87-1a8f-4d65-97da-cbe8d2d228e1"
                 name="field"
                 profile="CSharpProfile">
                 <propertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="d8d6c02a-ca6e-4f90-aa64-fbb956ecaa24">
+                    Id="b95395c1-7e62-4f1c-a860-906254bf155a">
                     <propertyInstance
-                      Id="6588144c-4e8b-4f57-a563-04cff79359db"
+                      Id="5e1834f9-b0bd-4bcd-8239-bcf53a0a5f31"
                       name="ClrAttributes" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="6b806e9a-9fc1-49bd-a4f7-5c5454eb113e">
+                    Id="f100e7ed-7a92-4106-861a-ea0fada695c2">
                     <propertyInstance
-                      Id="b249b5be-4dcf-4dd0-9632-92f302fd7874"
+                      Id="42a0e3ba-dc29-4bb8-afe5-9ac285ec6a48"
                       name="IsConst"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="bd4dab7c-4a5f-438d-8409-77069ec8e809">
+                    Id="a1563a4f-859c-460a-af94-613b53df02d9">
                     <propertyInstance
-                      Id="44db0c46-5f4f-4dca-ad8b-d4bb2ea32f7c"
+                      Id="1867104c-61ae-483d-b387-c017cd758884"
                       name="IsNullable"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="4ce0f0ec-0ebe-49e5-a898-a60735b2b306">
+                    Id="8218aa50-6af9-4c0a-9859-b108f3d95bc8">
                     <propertyInstance
-                      Id="8de00fa4-4dce-41fd-960a-873beba5c1ae"
+                      Id="5c11d32b-b434-4ddb-ad15-385f1e603b0a"
                       name="IsVolatile"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="9c3df44b-25fe-4b21-b47a-11b8f066b440">
+                    Id="50d80b04-1f3e-4ebf-9cd7-2dccd85b1a75">
                     <propertyInstance
-                      Id="12307cb1-ebe3-443a-b9d0-4186887dea53"
+                      Id="12f9fb86-0e21-4a19-b01b-502c5d374fbb"
                       name="PackageVisibility"
                       value="internal" />
                   </stereotypeInstanceHasPropertyInstances>
@@ -839,79 +919,14 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <type_NamedElement>
-              <classMoniker
-                Id="9f9402a3-89e0-45b5-9a4c-c933a1ada857"
-                LastKnownName="Lazy&lt;Star‎&gt;"
-                LastKnownLocation="Package1_1603.uml" />
+              <primitiveTypeMoniker
+                Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                LastKnownName="Boolean"
+                LastKnownLocation="ModelingProject1.uml" />
             </type_NamedElement>
           </property>
         </ownedAttributesInternal>
         <ownedOperationsInternal>
-          <operation
-            Id="0917cfd9-4d00-44d0-a6a3-fd42ae7f6433"
-            name="Tree"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false">
-            <referencesInternal>
-              <reference
-                Id="de823167-73d4-404a-85ba-980cbf811522"
-                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3DTree Member%3D.ctor"
-                tag="ViewCode" />
-            </referencesInternal>
-            <appliedStereotypesInternal>
-              <stereotypeInstance
-                Id="ee19a365-e00b-489c-998a-2d7ae9daa602"
-                name="method"
-                profile="CSharpProfile">
-                <propertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="8c176e15-f959-4b2b-9c5f-27e124c4f0ef">
-                    <propertyInstance
-                      Id="4485259b-9440-4286-b78a-8514002b8185"
-                      name="ClrAttributes" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="2802d692-a61d-4299-9ea5-b32f202f297e">
-                    <propertyInstance
-                      Id="d58f8130-bdb0-41b1-af73-b0a4d64c878b"
-                      name="IsPartial"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="cc75c981-e793-447f-91f1-55fa746a3d9e">
-                    <propertyInstance
-                      Id="302d7445-1c05-48ce-9454-16fd406c1d20"
-                      name="IsUnsafe"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="0908bd28-17ff-45e4-b676-f9c51d87076f">
-                    <propertyInstance
-                      Id="01151aa4-e3ed-48c2-9dc0-1ebfd5dab9fe"
-                      name="Inheritance"
-                      value="none" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="18293308-e9eb-427e-92f4-3be46e06cb4a">
-                    <propertyInstance
-                      Id="0c33689f-68b8-4e8a-83b9-a57513a1a02f"
-                      name="PackageVisibility"
-                      value="internal" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="bb883423-f36d-4bb5-b29a-08c6c6e0bf70">
-                    <propertyInstance
-                      Id="53b78c23-972d-4344-9b9d-14e32a764f97"
-                      name="params"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                </propertyInstances>
-              </stereotypeInstance>
-            </appliedStereotypesInternal>
-          </operation>
           <operation
             Id="6229c63a-5a2c-4b3a-a575-cf447bad1daf"
             name="Tree"
@@ -1142,105 +1157,6 @@
             </ownedParameters>
           </operation>
           <operation
-            Id="b251c2d9-67ea-4dd8-9c4c-83c811bf6ac9"
-            name="PrintTreeHelper"
-            visibility="Private"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false">
-            <referencesInternal>
-              <reference
-                Id="ee2ca740-d310-454d-a15e-2ddd4cf78c3f"
-                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3DTree Member%3D(Name%3DPrintTreeHelper OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))])"
-                tag="ViewCode" />
-            </referencesInternal>
-            <appliedStereotypesInternal>
-              <stereotypeInstance
-                Id="106d5c9c-dc45-47fc-a728-0c515b9dc4c0"
-                name="method"
-                profile="CSharpProfile">
-                <propertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="3250fc85-0b73-4d4c-9373-5d52f9ef9ad4">
-                    <propertyInstance
-                      Id="32f1ff64-4502-4a6c-ba7d-18fc56c08504"
-                      name="ClrAttributes" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="44053683-1611-4ed7-8d91-37f2ac4eada0">
-                    <propertyInstance
-                      Id="81ae6ec2-811f-44b9-818f-9c5200d53528"
-                      name="IsPartial"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="e8fd6bc9-48a7-4226-92bf-1f5ad0100ada">
-                    <propertyInstance
-                      Id="a6b2c579-99ab-4711-ba27-9d99e4ba0fd9"
-                      name="IsUnsafe"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="7257bcaa-c014-4fed-926f-21af01ff2e39">
-                    <propertyInstance
-                      Id="5560e052-c63d-419f-833e-550ba54ae1a4"
-                      name="Inheritance"
-                      value="none" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="dcedb93a-c109-447c-a371-0d7e0da7c2c9">
-                    <propertyInstance
-                      Id="fb9fa562-7c07-4473-8639-541eed9429f5"
-                      name="PackageVisibility"
-                      value="internal" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="7d91a6e3-c532-4b46-a870-1d8df3684ca8">
-                    <propertyInstance
-                      Id="f08ee423-a3e5-4ee2-bd79-49f4fd60eec9"
-                      name="params"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                </propertyInstances>
-              </stereotypeInstance>
-            </appliedStereotypesInternal>
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="2d0d60cb-1dbe-4449-97be-5e911741f0b5"
-                  direction="Return">
-                  <type_NamedElement>
-                    <classMoniker
-                      Id="3bb891bd-31c3-4da6-887d-ae78ddc60d20"
-                      LastKnownName="List&lt;String‎&gt;"
-                      LastKnownLocation="Package3_1603.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="5beff598-7631-48d6-b7b6-554113640d64"
-                  name="s"
-                  direction="In">
-                  <referencesInternal>
-                    <reference
-                      Id="acc61e46-d9a9-43af-a38d-68f5b3166451"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3DTree Member%3D(Name%3DPrintTreeHelper OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))]) ParameterIdentifier%3Ds"
-                      tag="ViewCode" />
-                  </referencesInternal>
-                  <type_NamedElement>
-                    <classMoniker
-                      Id="3bb891bd-31c3-4da6-887d-ae78ddc60d20"
-                      LastKnownName="List&lt;String‎&gt;"
-                      LastKnownLocation="Package3_1603.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
-          <operation
             Id="0899d319-d138-4747-8adc-2280144b73e0"
             name="PrintTree"
             isLeaf="false"
@@ -1318,6 +1234,71 @@
                 </parameter>
               </operationHasOwnedParameters>
             </ownedParameters>
+          </operation>
+          <operation
+            Id="41341650-78bc-4062-a6ab-f0166eb65357"
+            name="Tree"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3c48a6b3-7036-4c08-a886-5f6102f2dd43"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3DTree Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4b423a47-f6e8-4a38-b5d0-d9f3b6b50045"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b462f5a2-b2a3-4937-8592-b82b6542e2fe">
+                    <propertyInstance
+                      Id="6cb6d995-2183-4294-84f6-139760d991c7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4246329a-7666-476b-a9a3-e34b7c73eac5">
+                    <propertyInstance
+                      Id="87f9d48f-991d-4475-a6cf-a439fde1c1ca"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1397fec5-ac17-4fe9-9264-6a8355944bda">
+                    <propertyInstance
+                      Id="c932c27a-baef-4efd-8286-be1ad6bade2c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eab77ca3-0887-46db-bcd6-fe276ab61c5b">
+                    <propertyInstance
+                      Id="c26fc57a-86c3-4476-9177-b76eeaa3842c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="22e4d9b9-38e3-4147-9448-eed6f0c7f0fe">
+                    <propertyInstance
+                      Id="d4aab335-6b3c-42a4-9269-b33341fbfca9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b1369197-1fb5-4e41-b902-120b3dbed9c8">
+                    <propertyInstance
+                      Id="443960e0-5e9d-4e87-b971-742d0ba2f77b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
           </operation>
         </ownedOperationsInternal>
       </class>
@@ -1544,222 +1525,7 @@
               LastKnownLocation="Package_1603.uml" />
           </generalization>
         </generalsInternal>
-        <targetEnds>
-          <association
-            Id="ec74e3d8-0bd7-4443-a3ea-b5003743f302"
-            isDerived="false"
-            sourceEndRoleName="TreeDecorator"
-            targetEndRoleName="Cost"
-            isLeaf="false"
-            isAbstract="false">
-            <classMoniker
-              Id="500d2b35-cf4b-4cf9-bc9d-d3826a819cd1"
-              LastKnownName="Decimal"
-              LastKnownLocation="Package1_1603.uml" />
-            <description>Property Cost references type Decimal.</description>
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd
-                  Id="0ee67209-f994-4032-8146-d8963e21491c"
-                  name="TreeDecorator"
-                  isLeaf="false"
-                  isStatic="false"
-                  isReadOnly="false"
-                  isDerived="false"
-                  isDerivedUnion="false"
-                  aggregation="None"
-                  isComposite="false"
-                  isNavigableOwned="false">
-                  <lowerValueInternal>
-                    <literalString
-                      Id="fa14602a-27e3-4aed-b28c-c36ee2b012a4"
-                      name="Lower"
-                      value="*" />
-                  </lowerValueInternal>
-                  <upperValueInternal>
-                    <literalString
-                      Id="87807756-ee27-412d-a791-a56d4d8e9fbf"
-                      name="Upper"
-                      value="*" />
-                  </upperValueInternal>
-                </memberEnd>
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd
-                  Id="aff91cd8-bbf2-4e6a-a73d-fd1ffd6f4e38"
-                  name="Cost"
-                  isLeaf="false"
-                  isStatic="false"
-                  isReadOnly="false"
-                  isDerived="false"
-                  isDerivedUnion="false"
-                  aggregation="None"
-                  isComposite="false">
-                  <lowerValueInternal>
-                    <literalString
-                      Id="0a140eaf-10de-4222-96b6-367d21a80432"
-                      name="Lower"
-                      value="1" />
-                  </lowerValueInternal>
-                  <upperValueInternal>
-                    <literalString
-                      Id="ddc714d0-f10c-4961-b806-b25b5b95a2ca"
-                      name="Upper"
-                      value="1" />
-                  </upperValueInternal>
-                </memberEnd>
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-          </association>
-        </targetEnds>
-        <ownedAttributesInternal>
-          <property
-            Id="6f80bb8e-339d-4efb-86a6-38fa64762250"
-            name="Cost"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="true"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false">
-            <referencesInternal>
-              <reference
-                Id="c3859325-5f5b-4e8a-8d76-df4ea0422c81"
-                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3DTreeDecorator Member%3DCost"
-                tag="ViewCode" />
-            </referencesInternal>
-            <appliedStereotypesInternal>
-              <stereotypeInstance
-                Id="e8ae0759-175b-4d68-86d2-4b25ae1c18ad"
-                name="property"
-                profile="CSharpProfile">
-                <propertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="32ea1a79-de18-4b27-a124-686dc8c0798b">
-                    <propertyInstance
-                      Id="abbe807c-dc55-4956-b4ab-9339c5fd938e"
-                      name="ClrAttributes" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="353eebf4-3b8f-47ce-9573-839131fcd63c">
-                    <propertyInstance
-                      Id="3c0449b1-ee62-4cac-8e20-535aeab7955e"
-                      name="Get"
-                      value="public" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="c6c9331c-3337-4276-8d00-672dc608d51d">
-                    <propertyInstance
-                      Id="cff20e9d-8fbc-41e2-9fe4-67578b6ea333"
-                      name="HasBody"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="f9633859-60e9-41c8-a424-6b4ee3995872">
-                    <propertyInstance
-                      Id="9810b436-ea01-489e-ab81-6821bc58be7f"
-                      name="IsUnsafe"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="a7ac2092-9f59-4935-b2ac-833d6757af57">
-                    <propertyInstance
-                      Id="26461423-5508-493f-a0f4-31002ef2fd0d"
-                      name="Inheritance"
-                      value="none" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="af65612b-dda7-4438-ab14-75441c736271">
-                    <propertyInstance
-                      Id="a53eff00-8d03-4c22-ab2c-b2e8a7f57a68"
-                      name="PackageVisibility"
-                      value="internal" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="97c66bdc-7ffb-427a-8498-d2153c2e3e11">
-                    <propertyInstance
-                      Id="5075d85f-adff-4eaa-bd1e-e7292b86df4e"
-                      name="Set"
-                      value="none" />
-                  </stereotypeInstanceHasPropertyInstances>
-                </propertyInstances>
-              </stereotypeInstance>
-            </appliedStereotypesInternal>
-            <type_NamedElement>
-              <classMoniker
-                Id="500d2b35-cf4b-4cf9-bc9d-d3826a819cd1"
-                LastKnownName="Decimal"
-                LastKnownLocation="Package1_1603.uml" />
-            </type_NamedElement>
-          </property>
-        </ownedAttributesInternal>
         <ownedOperationsInternal>
-          <operation
-            Id="e6e7139a-2bcd-48ab-bcda-0190d04cb60c"
-            name="TreeDecorator"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false">
-            <referencesInternal>
-              <reference
-                Id="ab1999a2-cf77-42c3-8f24-f0562805a11d"
-                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3DTreeDecorator Member%3D.ctor"
-                tag="ViewCode" />
-            </referencesInternal>
-            <appliedStereotypesInternal>
-              <stereotypeInstance
-                Id="6e21d667-e9d7-4009-beba-2d5b91c46c2f"
-                name="method"
-                profile="CSharpProfile">
-                <propertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="f722333c-6f4e-46a7-86de-3da5c267061c">
-                    <propertyInstance
-                      Id="295fccb3-e2d8-447c-bfc7-8514005b3b0c"
-                      name="ClrAttributes" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="55df9b29-9067-4d22-b899-a1ee77ae93ad">
-                    <propertyInstance
-                      Id="713840c1-9f5d-4255-a487-4d984f74134c"
-                      name="IsPartial"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="b60f2251-48b3-48df-9154-078d1d34b94a">
-                    <propertyInstance
-                      Id="1145e966-90e9-44eb-b2bd-32285f8cc974"
-                      name="IsUnsafe"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="0334c81e-f343-480e-9677-f85f360e65e6">
-                    <propertyInstance
-                      Id="8aac3cd6-77b6-4875-acaa-e676d19e232d"
-                      name="Inheritance"
-                      value="none" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="3f7a9ed0-882a-447a-bc80-562fee9cceea">
-                    <propertyInstance
-                      Id="4059790f-9bae-49a0-ae20-27300033dc47"
-                      name="PackageVisibility"
-                      value="internal" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="04c94417-c72d-4d3e-b80d-3c5b5f357139">
-                    <propertyInstance
-                      Id="c8052032-89b7-446a-a172-4ff4fbdb754e"
-                      name="params"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                </propertyInstances>
-              </stereotypeInstance>
-            </appliedStereotypesInternal>
-          </operation>
           <operation
             Id="67bb9e8c-5421-43a0-94c3-ba88066d9d22"
             name="TreeDecorator"
@@ -1883,6 +1649,71 @@
                 </parameter>
               </operationHasOwnedParameters>
             </ownedParameters>
+          </operation>
+          <operation
+            Id="71fddca8-31a6-4e43-b6af-c33ad1e06576"
+            name="TreeDecorator"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="21d016fc-0c18-4ae6-950e-2f8bdbb5cec8"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3DTreeDecorator Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="06d98262-5508-4a66-96ed-f767c527a4c0"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b6f7a967-1bf4-4e1a-969e-fa99d0e97ad4">
+                    <propertyInstance
+                      Id="ebf27f1b-ebf1-44da-8b5e-cefbdf141c60"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="71b95150-8c12-45bf-9335-bc8ec544e5bd">
+                    <propertyInstance
+                      Id="fef9046d-31f1-4fd1-9863-5de3279b51ad"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ffeba304-21e6-488d-992f-aab09278de2a">
+                    <propertyInstance
+                      Id="2a913443-12a6-4e29-a443-e98b16057458"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d74d73f9-c75c-4913-954e-eb8e8a73b153">
+                    <propertyInstance
+                      Id="28150ec1-a56a-4cb0-9d51-31ffe874f82f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a2e9e198-ab7f-494e-ac4f-4ed2d9764dee">
+                    <propertyInstance
+                      Id="c0578a77-a84b-4560-bca9-16577450abed"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c6bcf219-fbec-44b6-8681-35fc5b95176d">
+                    <propertyInstance
+                      Id="de734ae8-ddd0-4d32-8554-a7566349b681"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
           </operation>
         </ownedOperationsInternal>
       </class>
@@ -2102,71 +1933,6 @@
         </appliedStereotypesInternal>
         <ownedOperationsInternal>
           <operation
-            Id="91db541b-27b7-4443-a3b3-4792d7b4b8b3"
-            name="Program"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false">
-            <referencesInternal>
-              <reference
-                Id="29fa91e4-fc24-4acf-881b-14c04dadad30"
-                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3DProgram Member%3D.ctor"
-                tag="ViewCode" />
-            </referencesInternal>
-            <appliedStereotypesInternal>
-              <stereotypeInstance
-                Id="f8b7c9f8-d157-47bd-b4e7-8bee0303e6a3"
-                name="method"
-                profile="CSharpProfile">
-                <propertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="56e6637c-8cc9-4145-9d19-eb8a8c44a179">
-                    <propertyInstance
-                      Id="25d1c7e6-7c73-4f45-858a-5da0ef5ef118"
-                      name="ClrAttributes" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="1a85aa61-30c8-4d2f-807c-f9ec2a61f9cd">
-                    <propertyInstance
-                      Id="a783a253-90ba-433a-a8f9-8b11d906e044"
-                      name="IsPartial"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="0763442d-0b8f-4d89-9542-ca33b6f63ecf">
-                    <propertyInstance
-                      Id="d9382ba3-80c5-4efe-bf75-0ce33dc6352e"
-                      name="IsUnsafe"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="185ebead-a81d-4640-8289-03575eae5d8a">
-                    <propertyInstance
-                      Id="4ab1a02c-8d56-4709-951d-fc84da029057"
-                      name="Inheritance"
-                      value="none" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="e3f00564-9413-4e4a-ba40-1b4ec78b3108">
-                    <propertyInstance
-                      Id="f8b82fa7-fa05-41e2-abf3-afe6407fe18e"
-                      name="PackageVisibility"
-                      value="internal" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="0da20ba3-8de8-42a1-8d0b-895dba3f6dfc">
-                    <propertyInstance
-                      Id="a53ad5b2-2f6b-4c51-9d71-c6187109b8bd"
-                      name="params"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                </propertyInstances>
-              </stereotypeInstance>
-            </appliedStereotypesInternal>
-          </operation>
-          <operation
             Id="456ee490-0c83-4be4-8b33-3063e1401c4f"
             name="Main"
             visibility="Private"
@@ -2265,6 +2031,71 @@
                 </parameter>
               </operationHasOwnedParameters>
             </ownedParameters>
+          </operation>
+          <operation
+            Id="8d3088e5-ef89-42fc-8a2b-f6c5a61a0c09"
+            name="Program"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="43a4d748-8249-4ef2-8652-bbf6539e0bf2"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3DProgram Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c5673fcc-2de2-4308-8f93-5609ea69048f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="af6e698d-7715-47fd-95b5-39b1054849a2">
+                    <propertyInstance
+                      Id="941265b5-b135-4613-9a64-0e1ee8a0f886"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="52893518-76a8-431c-8c83-612eb4bc82f7">
+                    <propertyInstance
+                      Id="21c00010-b936-4138-b655-7f70e1e8d8aa"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7c2c042b-0c27-4ef2-a17c-1598c414e595">
+                    <propertyInstance
+                      Id="a23e2ade-414b-4ef4-8ed3-d1ec7b9d9b26"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e9c11b7a-532f-4a93-8612-b7e38ea71bd5">
+                    <propertyInstance
+                      Id="9da37a60-57dd-4638-816c-52def14aafc6"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="595944ab-cfa6-4373-b9cd-5edb3463703c">
+                    <propertyInstance
+                      Id="e1fc9f95-88f2-4b50-ab1a-6c71083268fe"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0b0ea0f5-9a11-4379-8b1a-47d67333076f">
+                    <propertyInstance
+                      Id="63fc1712-37f4-43da-a1fa-0e1dbf2e7632"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
           </operation>
         </ownedOperationsInternal>
       </class>
@@ -2637,20 +2468,429 @@
             </propertyInstances>
           </stereotypeInstance>
         </appliedStereotypesInternal>
-        <generalsInternal>
-          <generalization
-            Id="0a4569bc-57e1-4cd1-aec3-182d2eda9ba6"
-            isSubstitutable="false">
+        <targetEnds>
+          <association
+            Id="797d21d1-5f3c-4b2b-942d-8c570ff158f8"
+            isDerived="false"
+            sourceEndRoleName="Star"
+            targetEndRoleName="Cost"
+            isLeaf="false"
+            isAbstract="false">
             <classMoniker
-              Id="54ed8a27-4ddb-43ef-a9e3-d1f14c15900f"
-              LastKnownName="TreeDecorator"
-              LastKnownLocation="Package_1603.uml" />
-          </generalization>
-        </generalsInternal>
+              Id="500d2b35-cf4b-4cf9-bc9d-d3826a819cd1"
+              LastKnownName="Decimal"
+              LastKnownLocation="Package1_1603.uml" />
+            <description>Property Cost references type Decimal.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2d7fd76a-7d3a-443c-8a21-ed6775a9cba7"
+                  name="Star"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="43b0d619-248c-4220-aa0e-88b4ad2c6303"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="f09db199-2a1d-4309-8b46-06b0469af7de"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="477a8c3e-e17f-4ee9-906c-371c326ecb80"
+                  name="Cost"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="17ba25c4-a2a2-4fa2-a0a2-ccb388b87eae"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="c079f0fc-fae0-496b-b90d-efe53a01bf58"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="e47fa9fe-f239-456f-ae07-d73198b6b815"
+            name="Cost"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="c0a72be3-1358-42d7-9fdf-e6ae188abdfc"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3DStar Member%3DCost"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0743ac26-792f-4d90-8ce2-d29016828501"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="61555dff-e476-4d7c-9b13-1759f13bb7bc">
+                    <propertyInstance
+                      Id="8d8b73c5-1e92-4ba5-b6d1-19c40ae1d645"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0567e8f5-ac56-4afb-b123-0a2998c2a8a0">
+                    <propertyInstance
+                      Id="da0085b4-645c-43ab-b9bc-ffd6a8d45b81"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7d222db1-48ef-4cf1-b781-39e0a0c6a2a1">
+                    <propertyInstance
+                      Id="e8aa480e-5608-49a2-92b8-390dea7930a9"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d52f1e75-c29c-4305-a1a4-e2766661a5c8">
+                    <propertyInstance
+                      Id="65df3bbb-4c83-4009-a414-d6b546e491d1"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="67777a0d-5059-4379-b406-ef27d58823ce">
+                    <propertyInstance
+                      Id="eb652a83-e600-414b-a42a-91165f476fda"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="33446690-15a6-4cb8-98e2-9c7d67066a76">
+                    <propertyInstance
+                      Id="4d7834e6-c6b6-46e8-8930-1183be147fd8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1ac814cd-299f-4794-8edd-23bd0fe4b1e2">
+                    <propertyInstance
+                      Id="994baa42-245c-4b17-80c5-321505786e87"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="500d2b35-cf4b-4cf9-bc9d-d3826a819cd1"
+                LastKnownName="Decimal"
+                LastKnownLocation="Package1_1603.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="0f1e043e-aae1-4588-8310-8245ba527725"
+            name="Name"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="e35ee472-d771-44cc-b0ab-2dd45f0d74d1"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3DStar Member%3DName"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6a2d2724-751c-4fd6-be91-5c14e2ca4a0a"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fa94ff62-c6ff-402c-a369-7a65093a7855">
+                    <propertyInstance
+                      Id="dd0df2e0-840b-40e8-b30a-952811c102d3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4c064b65-d219-4b90-b7b2-a52c0cb3bb7c">
+                    <propertyInstance
+                      Id="50a355c2-a7d3-4818-a6e2-c291e9e94955"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bbe55b7e-d6f3-4baf-85fe-1f018b9336b1">
+                    <propertyInstance
+                      Id="b57b411b-bdd1-49c2-b341-8922b5001255"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0c87db32-c7fd-47b8-b715-e55ac16607c6">
+                    <propertyInstance
+                      Id="270d8ad0-79fe-4909-ac58-de4094e56a32"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a4d7bafd-ad11-4695-8e60-550136371c3a">
+                    <propertyInstance
+                      Id="c83ce894-dd6e-4fdd-ab29-6ebd8f901199"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="540bd441-c431-41cd-9246-628ae52ee5c5">
+                    <propertyInstance
+                      Id="11e5be69-4439-44e4-9502-4539f1eb65fc"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="50b41b2d-0cda-4a27-8e9c-86028248e849">
+                    <propertyInstance
+                      Id="24dfddef-347a-4ad5-b6ce-2d47f0f64e19"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="1ac94390-0ca0-4d3d-8648-d25e4f58454e"
+            name="_Star"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="8d7d542a-55a3-4ea4-a5f5-03b71a841288"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3DStar Member%3D_Star"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="55a9e006-5e16-4b82-8f08-a24f665144e2"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1d900503-5f46-4b0d-9d03-7583842a0d75">
+                    <propertyInstance
+                      Id="c2cb330a-2166-402b-b8f8-6327158ae7d2"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="28dfc4c2-1097-4e54-9165-df9eb9199831">
+                    <propertyInstance
+                      Id="fcccab3c-1415-4de5-91a6-cf753989e6a8"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="59b56e22-3e1d-4dc3-a5e5-b4cad9712b25">
+                    <propertyInstance
+                      Id="a6136b7d-6786-483e-9d70-7ad7da1a6470"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ea2489c3-d3d8-4c0c-a1ed-d4eba54a1bc0">
+                    <propertyInstance
+                      Id="7b0d7408-cd9a-43b1-afd0-17fcb6cd2a15"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d8405cd7-6842-4758-8e9a-843bed319c7f">
+                    <propertyInstance
+                      Id="20fe1fb4-3af4-47b4-8571-79c239b9e6f7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="9f9402a3-89e0-45b5-9a4c-c933a1ada857"
+                LastKnownName="Lazy&lt;Star‎&gt;"
+                LastKnownLocation="Package1_1603.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="c672cdb5-243e-4be1-b2b8-59ecf518df88"
+            name="_name"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="34c11f0b-31c2-485f-9c6b-c007972b9b1d"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3DStar Member%3D_name"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3ca233f8-6c58-4f2b-9298-d6975eb945cb"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e5b3eb47-4c12-457e-9f0e-49135b5d0148">
+                    <propertyInstance
+                      Id="105f846d-3f3a-472f-891f-6390323aa1ea"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dce0dc30-a7c8-4dd7-afdb-16d61264ff12">
+                    <propertyInstance
+                      Id="2c70b2d3-bda8-4172-a34f-c25e2dee3a8d"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0e3cac94-1420-4d83-83f1-4f2c5fab9bcd">
+                    <propertyInstance
+                      Id="da75e380-47fc-48f2-923d-97a4837eabea"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9d2b7a7a-89f0-49d0-8fa5-21da07f08920">
+                    <propertyInstance
+                      Id="0fc001f2-b620-41e3-86b4-5cb85ef6fa00"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a58056e9-0c18-447d-8a82-161377448c06">
+                    <propertyInstance
+                      Id="bd123827-bab0-43c4-bc8d-f586a2671c08"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </property>
+          <property
+            Id="9a95cd93-6cb8-4acf-a1e4-f5d5b73ef99f"
+            name="starCost"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="34f08f94-1a19-41aa-9e6a-920219e3a3f6"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3DStar Member%3DstarCost"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="603b9c3b-c640-4529-9327-ecdea28b3395"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="271c1b78-233a-461f-9881-0c5c6cb55206">
+                    <propertyInstance
+                      Id="2a4ca731-47b4-450f-96ee-1ed5178ca99e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="da0c9c29-d349-4fb9-8409-70b14463ae2a">
+                    <propertyInstance
+                      Id="b950297c-3d25-4459-969f-3dbada80bb5c"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c9e19737-c167-40ab-b875-6abee31f5bdc">
+                    <propertyInstance
+                      Id="1479d82b-6508-4552-ac2f-fc1001ae58c9"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="41879fd8-fa91-4eb7-b273-3b2d8058c6e7">
+                    <propertyInstance
+                      Id="126087d3-495d-44ce-91d4-d1dfca4d29de"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="93e2b643-b54d-4c94-9d0e-1df25b9931d0">
+                    <propertyInstance
+                      Id="e8a2dd57-7793-492a-8822-3ff54b351f6d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </property>
+        </ownedAttributesInternal>
         <ownedOperationsInternal>
           <operation
-            Id="260dca36-0071-4d7b-adad-2548535476f4"
+            Id="a2461c17-bacd-47b7-87d0-8ac573a81b69"
             name="Star"
+            visibility="Private"
             isLeaf="false"
             isStatic="false"
             isAbstract="false"
@@ -2658,81 +2898,60 @@
             isQuery="false">
             <referencesInternal>
               <reference
-                Id="8a05d94c-a04d-4e85-9688-7b1ba1ed9ba9"
-                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3DStar Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3DTree)])"
+                Id="cbfa07c0-9971-4384-87bd-0cbc3ce03dca"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3DStar Member%3D.ctor"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
               <stereotypeInstance
-                Id="f1969b4d-2503-4a3c-b208-7440609b4620"
+                Id="11ab8586-53c2-4f54-81de-1e6f0aca73c5"
                 name="method"
                 profile="CSharpProfile">
                 <propertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="06ffef51-007b-4464-b34f-70a53b54b3ca">
+                    Id="6b01915f-74c8-4b84-a6a4-b6c4585ba572">
                     <propertyInstance
-                      Id="7541d6d4-f44b-4d44-86cd-7c4ddaccf460"
+                      Id="dc991853-3358-4b21-be4e-623d5cec631e"
                       name="ClrAttributes" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="b04a8331-2196-4824-8474-18229bc09031">
+                    Id="a2a965e1-4610-459a-8f7d-f1594e9ce1fb">
                     <propertyInstance
-                      Id="39a930b0-6d6b-4475-8083-c4d457584035"
+                      Id="0bd43204-49bf-48ce-915a-e7b9e2f18151"
                       name="IsPartial"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="dee1ec82-b086-41de-90df-ac15aa463049">
+                    Id="71670de1-45d4-486e-8fec-395f6aadd9d1">
                     <propertyInstance
-                      Id="1fc43c6a-cfd3-4f6a-9e9a-f12e8ce874b4"
+                      Id="22bcc92b-ef39-4e3d-ba05-8743b256f02d"
                       name="IsUnsafe"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="d96546f8-2d85-4e1d-a943-9c96c4e1d5cb">
+                    Id="ee295f51-c1ea-4645-8773-1ef7f597ce0c">
                     <propertyInstance
-                      Id="bf1397c0-0ab7-460d-ba19-bbf62e33215b"
+                      Id="8a05dffd-5cf6-443a-911d-ef3256eea1fe"
                       name="Inheritance"
                       value="none" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="0885641c-396d-4ef6-8fd5-06d5a911b105">
+                    Id="dbd31097-6945-482c-8f45-c31432b3c683">
                     <propertyInstance
-                      Id="b68f2f75-f777-440b-9dc4-bb002218c210"
+                      Id="c1f44c41-4a1a-4bd2-9dd9-302353981fae"
                       name="PackageVisibility"
                       value="internal" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="8653073e-2b99-4725-9124-11eee49b2e72">
+                    Id="a88c1bee-8391-4135-b399-df82d2b510bd">
                     <propertyInstance
-                      Id="18a6bbb2-2073-43cc-9627-c3f3db82debc"
+                      Id="4fdc6d5c-786b-4ed7-b6bd-a624396de869"
                       name="params"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                 </propertyInstances>
               </stereotypeInstance>
             </appliedStereotypesInternal>
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="7119b667-f2cd-49d5-9f11-77fce93f191b"
-                  name="t"
-                  direction="In">
-                  <referencesInternal>
-                    <reference
-                      Id="5a1ce351-edab-41bc-9137-dea3fb17a182"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3DStar Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3DTree)]) ParameterIdentifier%3Dt"
-                      tag="ViewCode" />
-                  </referencesInternal>
-                  <type_NamedElement>
-                    <classMoniker
-                      Id="891d9f26-6ac5-4c70-a940-4500f03f3ed5"
-                      LastKnownName="Tree"
-                      LastKnownLocation="Package_1603.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
           </operation>
         </ownedOperationsInternal>
       </class>
@@ -3274,7 +3493,7 @@
         </generalsInternal>
         <ownedOperationsInternal>
           <operation
-            Id="8c895979-e0ee-426e-b784-dcdf536ee3f9"
+            Id="7161e31c-8956-4041-a919-9ab899de71c7"
             name="BalsamFir"
             isLeaf="false"
             isStatic="false"
@@ -3283,54 +3502,54 @@
             isQuery="false">
             <referencesInternal>
               <reference
-                Id="1f1e3cfe-0317-4dfb-b838-e92e99b3fcbe"
+                Id="3cad2225-8e00-4fff-843b-ebb7752c6e68"
                 handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3DBalsamFir Member%3D.ctor"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
               <stereotypeInstance
-                Id="127dcff8-6758-4c84-a8bd-450d526c8a6a"
+                Id="968c625f-0793-4bb5-aa3e-f6c96eb97dde"
                 name="method"
                 profile="CSharpProfile">
                 <propertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="81080801-dd45-480c-a5f5-dcbb91621870">
+                    Id="0e1f16e9-5b38-471e-ba98-aa4e3ae1234d">
                     <propertyInstance
-                      Id="d0d2b891-9f5c-44dc-8f72-42b9d715b78b"
+                      Id="6370834e-fc87-4696-b8e7-7e325b448ebc"
                       name="ClrAttributes" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="9397d056-621a-4cb1-ab3d-cae8acb7188e">
+                    Id="8d9066f6-b87f-4abc-bc9c-4bac0c2a2c5f">
                     <propertyInstance
-                      Id="adef368b-18de-4cdc-aa02-17e807686f59"
+                      Id="23269c57-737f-49a2-8912-59fa11a2fc99"
                       name="IsPartial"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="37a92d06-2b19-4a23-b133-e7f5a206641f">
+                    Id="f050ace0-8780-4e9d-887e-628908abad73">
                     <propertyInstance
-                      Id="c437ecfd-8e36-4a4f-8e5e-afc7c0798a99"
+                      Id="4acb5d66-7400-4db6-8fae-39a0c5e56686"
                       name="IsUnsafe"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="c4759233-cebc-47b8-922c-8d980373e2dc">
+                    Id="0f0b6406-c835-4dd2-9742-1e67cba7d18e">
                     <propertyInstance
-                      Id="1d6030ef-8298-46e3-bc3c-bd6bfd4b38f7"
+                      Id="5ac6932a-29b4-414d-ba75-ed5bcd12b1c2"
                       name="Inheritance"
                       value="none" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="756e3300-009a-49aa-b0bc-e1e110e6f27c">
+                    Id="c8377920-8aef-4ef6-b3bd-c859d5322088">
                     <propertyInstance
-                      Id="8ec4f295-00a1-408f-ac63-32bb67c60a53"
+                      Id="76573270-2a8a-43bc-879f-93eb890b2a4a"
                       name="PackageVisibility"
                       value="internal" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="1cc6c81a-3b2b-4e6d-877c-016aa91ae1c0">
+                    Id="f117b0c5-96f3-4222-87d7-6a030ee3b1df">
                     <propertyInstance
-                      Id="898462dc-32ad-43f7-ad13-7484eb6b3b36"
+                      Id="50796267-93a6-4777-b8ed-bd2b77c77662"
                       name="params"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
@@ -3410,7 +3629,7 @@
         </generalsInternal>
         <ownedOperationsInternal>
           <operation
-            Id="569ee2b8-e882-4167-98cb-69f01c16cf1d"
+            Id="cde010a6-758f-408e-afc3-ebf923dd75c8"
             name="ColoradoBlueSpruce"
             isLeaf="false"
             isStatic="false"
@@ -3419,54 +3638,54 @@
             isQuery="false">
             <referencesInternal>
               <reference
-                Id="40259f01-2c08-420c-badf-1b3442a680d0"
+                Id="a2e75196-7471-46e8-a1fb-8a1c7e64e1d8"
                 handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3DColoradoBlueSpruce Member%3D.ctor"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
               <stereotypeInstance
-                Id="5194044c-c3c9-4d48-9136-a755f117d45c"
+                Id="e4834bff-2b66-4efc-bc25-2cafb1849fe3"
                 name="method"
                 profile="CSharpProfile">
                 <propertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="b625769e-b953-4bb3-a87d-20020d42a44b">
+                    Id="37e78292-180d-4bea-9eec-91228885bbd1">
                     <propertyInstance
-                      Id="a00ac5c3-47da-4426-a03a-7d048a159450"
+                      Id="9fe54de5-9d45-4ce6-bb5b-bda12c2b2ccc"
                       name="ClrAttributes" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="4ae7cb58-b5f3-453f-a447-08599556fc81">
+                    Id="cbe742e0-92d1-4c4e-8993-edd7b039ad3f">
                     <propertyInstance
-                      Id="b3b4b6f5-a445-4f9c-9cbc-6c385b32b13b"
+                      Id="131a4a58-cbd8-4191-8474-327f60915b8c"
                       name="IsPartial"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="4c4d912c-4962-47ac-94c0-43dfc28121b3">
+                    Id="5b9d7c7d-4d84-4f10-8cc6-6b3cb2671b77">
                     <propertyInstance
-                      Id="c206572a-5a60-4067-98d0-c338dfab3695"
+                      Id="beae78a8-440a-4905-943c-9433386b2ee6"
                       name="IsUnsafe"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="8012ff37-1e17-443a-9600-70b6b7f17327">
+                    Id="697b97fb-b2bd-425a-bb29-d233bb8d3a8d">
                     <propertyInstance
-                      Id="58cb0dd4-ed13-4661-a7e6-32f45fe6c091"
+                      Id="5745072c-beac-4c88-a2f8-1f912cc94bd1"
                       name="Inheritance"
                       value="none" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="07641b85-0aec-40b1-a9c0-9265d57912e5">
+                    Id="fdacf401-51f7-4e14-a9e9-a7ff2794dcc3">
                     <propertyInstance
-                      Id="4c10610b-caec-48c3-85c9-5b3ccea8da7b"
+                      Id="7a9ff69b-c66e-4189-9505-0c5af8bf7e5c"
                       name="PackageVisibility"
                       value="internal" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="c2b222e0-d0c5-4ec9-b78f-c0649ae538f5">
+                    Id="afd0344b-f317-44ec-8607-95bbdb2c9a20">
                     <propertyInstance
-                      Id="42bdb6a8-7bea-4387-9366-c78c1e16dca8"
+                      Id="44e0afc7-9010-48fb-858c-752720162b70"
                       name="params"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
@@ -3545,7 +3764,7 @@
         </generalsInternal>
         <ownedOperationsInternal>
           <operation
-            Id="57d64cfc-ec8a-4a0b-b9e5-a599582168e6"
+            Id="633c28c0-5b98-4326-9b7b-ffa0aaaa84ee"
             name="DouglasFir"
             isLeaf="false"
             isStatic="false"
@@ -3554,54 +3773,54 @@
             isQuery="false">
             <referencesInternal>
               <reference
-                Id="463c8e78-b12b-47fb-bcfa-0cfb92583e8a"
+                Id="3c104b00-44d7-4fa8-9a45-d9ebabee1c08"
                 handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3DDouglasFir Member%3D.ctor"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
               <stereotypeInstance
-                Id="5b56dfb7-0a57-43f4-8219-285359b36194"
+                Id="092c1f9c-f4df-49c1-8da2-17bd04756afe"
                 name="method"
                 profile="CSharpProfile">
                 <propertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="c82a402f-ed6c-4f65-a642-be1d3c43ce30">
+                    Id="832ddaf6-a260-4022-bb48-ce82230729b6">
                     <propertyInstance
-                      Id="c9739703-e340-46fb-8b70-9e5b32a09a5b"
+                      Id="440afd64-c802-4ce1-a73d-3d0878cfb0e5"
                       name="ClrAttributes" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="d1ee4c55-6b67-44db-b332-61dda489e53c">
+                    Id="f529d2ff-b656-4d06-a485-c7864f5542ac">
                     <propertyInstance
-                      Id="0df81d80-425e-43df-b033-13c352b9adae"
+                      Id="f9477f98-cc5c-440b-9a0e-2afe917db262"
                       name="IsPartial"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="81869b38-33f4-4607-861d-da056ec1524d">
+                    Id="ae3d98dd-3a07-4da5-a987-98eea6373849">
                     <propertyInstance
-                      Id="a0903c85-34ae-4865-8d33-b86e99a96f9d"
+                      Id="83c1eb94-7e08-4758-9f1e-8059160cf600"
                       name="IsUnsafe"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="fb30fdb6-5464-48cc-a01e-4503d69e2a21">
+                    Id="efaf287d-5171-4d30-ba11-36e78f2cb6d9">
                     <propertyInstance
-                      Id="4c7edb6d-91b1-43a7-80e3-90f08488b4dd"
+                      Id="abbf6df5-7c3d-4be9-9f30-fb95bba897dc"
                       name="Inheritance"
                       value="none" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="f7015044-b231-4df2-8397-fa25ec653123">
+                    Id="778a05c5-c731-42f0-8d9a-960c6a0d7dd8">
                     <propertyInstance
-                      Id="ad108dea-d7ce-424e-a43f-ea1c70a48d48"
+                      Id="13b5724c-ff5d-475b-8af7-3fc83a2012d3"
                       name="PackageVisibility"
                       value="internal" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="b46ac853-4920-40cd-ab37-629f22b3e271">
+                    Id="db039e8d-ec11-487f-bec5-f115b1c03ac9">
                     <propertyInstance
-                      Id="f0efc64b-2cc8-4bac-adef-a6cb3a552bdf"
+                      Id="fc103839-8cd3-4834-90a8-8c80b5196480"
                       name="params"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
@@ -3610,6 +3829,281 @@
             </appliedStereotypesInternal>
           </operation>
         </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="4f9a9045-0abe-488e-9bbe-a417268c6b17"
+        name="SelfApplicable"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="d87b50da-81de-45c2-89c5-f793fe5d9156"
+            handle="viewcode://./CodeSchema_Delegate?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3D(Name%3DSelfApplicable GenericParameterCount%3D1)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="bc622bd8-87a6-4a11-a5c7-8815429cdde8"
+            name="delegate"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f9476307-2f03-4caf-b28a-6c347b8c585d">
+                <propertyInstance
+                  Id="cacd86b1-04f7-4904-b1f4-3f1d68e6f183"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9e6de223-76c8-4bd2-8835-0ac786e435d7">
+                <propertyInstance
+                  Id="72c70f0b-c499-467a-8193-49df57949f4e"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5b2582d4-9dfa-4693-9e78-c7a0b9f6c2c5">
+                <propertyInstance
+                  Id="50b6dc2c-bda4-4087-925e-b62c6a3468dc"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedRedefinableTemplateSignatureInternal>
+          <redefinableTemplateSignature
+            Id="deaae4bf-5c78-4748-8380-af45733316ee"
+            parameters=""
+            name="RedefinableTemplateSignature1"
+            isLeaf="false">
+            <ownedParameters>
+              <classifierTemplateParameter
+                Id="4a1aa14b-9dcb-4974-b3cd-af4a380472b0">
+                <referencesInternal>
+                  <reference
+                    Id="9f2ced70-a560-467f-b45b-994ddc96ce83"
+                    handle="viewcode://./CodeSchema_GenericParameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3D(Name%3DSelfApplicable GenericParameterCount%3D1) ParameterIdentifier%3D0"
+                    tag="ViewCode" />
+                </referencesInternal>
+                <ownedParameterableElement>
+                  <class
+                    Id="19266027-0e46-47e5-927a-8604c9d552da"
+                    name="T"
+                    isAbstract="false"
+                    isLeaf="false"
+                    isActiveClass="false" />
+                </ownedParameterableElement>
+              </classifierTemplateParameter>
+            </ownedParameters>
+          </redefinableTemplateSignature>
+        </ownedRedefinableTemplateSignatureInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="eb44cb3e-ef2a-4bfa-8a07-ad925b884376"
+            name="Invoke"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5205b7e2-ee8e-447c-9418-442cddcd7ee5"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3D(Name%3DSelfApplicable GenericParameterCount%3D1) Member%3D(Name%3DInvoke OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3D(Name%3DSelfApplicable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3D(Name%3DSelfApplicable GenericParameterCount%3D1) ParameterIdentifier%3D0)]))%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3D(Name%3DSelfApplicable GenericParameterCount%3D1) ParameterIdentifier%3D0)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3DTree)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a6bbecb8-9946-4870-8bea-5e8b83c69dc3"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3d3c1ddc-e381-4d50-a779-6bb953389510">
+                    <propertyInstance
+                      Id="32ef7c88-33b5-4e9f-80b8-04a28d617ec0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7de52670-4080-4414-a02d-407c86dad8c1">
+                    <propertyInstance
+                      Id="9385d37b-ada2-491f-8a4b-f92e5a3fa0d3"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c0a72fc8-10a1-4c3e-a391-ec423499e912">
+                    <propertyInstance
+                      Id="af1390b2-37a7-4180-925b-7be8bbd2d678"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b32cc74c-39ba-428a-8a30-4abef1aad1ca">
+                    <propertyInstance
+                      Id="8cf33aba-cb32-40d3-a291-640251ba3985"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5e7f42b6-6ea0-4c37-bb1c-6eade10d4f4f">
+                    <propertyInstance
+                      Id="9f54e2da-0188-41e2-968d-c919a08968ef"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f01acef3-8312-4f64-9972-87b9095defb1">
+                    <propertyInstance
+                      Id="8c6b681c-f083-4cef-b2a4-f871a6a9b640"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="641c34df-4a2f-4ad4-b40e-226319d4caeb"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="19266027-0e46-47e5-927a-8604c9d552da"
+                      LastKnownName="T"
+                      LastKnownLocation="Package_1603.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6260468a-b31d-4cdd-9d08-7aa1ce432930"
+                  name="self"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="933e2acd-813c-4dca-b710-cd1a4c992e5b"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3D(Name%3DSelfApplicable GenericParameterCount%3D1) Member%3D(Name%3DInvoke OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3D(Name%3DSelfApplicable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3D(Name%3DSelfApplicable GenericParameterCount%3D1) ParameterIdentifier%3D0)]))%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3D(Name%3DSelfApplicable GenericParameterCount%3D1) ParameterIdentifier%3D0)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3DTree)]) ParameterIdentifier%3Dself"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="a966d158-07a0-4099-8693-e40728764c0e"
+                      LastKnownName="SelfApplicable&lt;T‎&gt;"
+                      LastKnownLocation="Package_1603.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="eb2c39c0-8a67-487c-ae5b-28d4e928d92e"
+                  name="list"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="c911c6e7-c9f8-4cbf-80d9-d0f83a5204fb"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3D(Name%3DSelfApplicable GenericParameterCount%3D1) Member%3D(Name%3DInvoke OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3D(Name%3DSelfApplicable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3D(Name%3DSelfApplicable GenericParameterCount%3D1) ParameterIdentifier%3D0)]))%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3D(Name%3DSelfApplicable GenericParameterCount%3D1) ParameterIdentifier%3D0)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3DTree)]) ParameterIdentifier%3Dlist"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="19266027-0e46-47e5-927a-8604c9d552da"
+                      LastKnownName="T"
+                      LastKnownLocation="Package_1603.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8fddaff2-d7bd-47b4-95d9-003ec36c555a"
+                  name="t"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="2c50438f-3abe-4b6d-9756-29f06a7b1cc5"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3D(Name%3DSelfApplicable GenericParameterCount%3D1) Member%3D(Name%3DInvoke OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3D(Name%3DSelfApplicable GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3D(Name%3DSelfApplicable GenericParameterCount%3D1) ParameterIdentifier%3D0)]))%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3D(Name%3DSelfApplicable GenericParameterCount%3D1) ParameterIdentifier%3D0)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FJames%2FDesktop%2FFiles%2FHomework%2FCSCD349%2FDesignPatterns_Assign3Decorator%2FAssign3Dectorator%2FAssign3Dectorator%2Fbin%2FDebug%2FAssign3Dectorator.exe Namespace%3DAssign3Dectorator Type%3DTree)]) ParameterIdentifier%3Dt"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="891d9f26-6ac5-4c70-a940-4500f03f3ed5"
+                      LastKnownName="Tree"
+                      LastKnownLocation="Package_1603.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="a966d158-07a0-4099-8693-e40728764c0e"
+        name="SelfApplicable&lt;T‎&gt;"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="3a5b977c-6c46-438a-a5e2-d7894cb90857"
+            name="delegate"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5cd11c0e-2644-4f6f-ad61-6437dbc990df">
+                <propertyInstance
+                  Id="ec6288a3-afd1-4d44-b4f9-894c952820e4"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1cb8faf6-4ba9-43ff-b9a8-0546d4532bdb">
+                <propertyInstance
+                  Id="1c3b9e06-529e-4c6c-8c1f-afc9a4ae1954"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="90e9b523-5f75-431e-91cf-b84f1d42c3b3">
+                <propertyInstance
+                  Id="8ef98443-bbc6-482c-881e-36b0d536e4b8"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <signatures>
+          <templateBinding
+            Id="17bda906-84ba-49bd-9876-29fa8a580eea">
+            <redefinableTemplateSignatureMoniker
+              Id="deaae4bf-5c78-4748-8380-af45733316ee"
+              LastKnownLocation="Package_1603.uml" />
+            <relationshipOwnedElementsInternal>
+              <templateBindingHasTemplateParameterSubstitution>
+                <templateParameterSubstitution
+                  Id="17ac65eb-a219-4247-9300-bece70636ef5">
+                  <actuals>
+                    <classMoniker
+                      Id="19266027-0e46-47e5-927a-8604c9d552da"
+                      LastKnownName="T"
+                      LastKnownLocation="Package_1603.uml" />
+                  </actuals>
+                  <formal>
+                    <classifierTemplateParameterMoniker
+                      Id="4a1aa14b-9dcb-4974-b3cd-af4a380472b0"
+                      LastKnownLocation="Package_1603.uml" />
+                  </formal>
+                </templateParameterSubstitution>
+              </templateBindingHasTemplateParameterSubstitution>
+            </relationshipOwnedElementsInternal>
+          </templateBinding>
+        </signatures>
       </class>
     </packageHasNamedElement>
   </packagedElements>
