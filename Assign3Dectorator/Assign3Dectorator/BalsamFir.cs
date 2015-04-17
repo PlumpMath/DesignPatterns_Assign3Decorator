@@ -13,6 +13,8 @@ namespace Assign3Dectorator
     class BalsamFir : Tree
     {
         public BalsamFir() : base(5,"Balsam Fir")
-        {}
+        {
+            HasStar = false;
+        }
     }
 }

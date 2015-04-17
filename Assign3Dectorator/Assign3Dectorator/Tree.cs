@@ -16,7 +16,7 @@ namespace Assign3Dectorator
         private decimal _cost;
         private string _name;
         private Tree _decorator;
-        private static bool _hasStar;
+        private bool _hasStar;
         
         public Tree()
         {}
@@ -24,14 +24,20 @@ namespace Assign3Dectorator
         public Tree(decimal cost, string name)
         {
             _cost = cost;
-            _name = name; 
+            _name = name;
         }
 
-        public Tree(decimal cost, string name, Tree t)
+        public Tree(decimal cost, string name, Tree t) : this(cost,name)
         {
-            _cost = cost;
-            _name = name;
             _decorator = t;
+            if(t.HasStar == false)
+            {
+                HasStar = false;
+            }
+            else
+            {
+                HasStar = true;
+            }
             
         }
 
@@ -122,7 +128,18 @@ namespace Assign3Dectorator
 
         public bool HasStar
         {
-            set { _hasStar = value; }
+            set 
+            {
+                if (_hasStar==false)
+                {
+                    _hasStar = value;
+                }
+                else
+                {
+                    Console.WriteLine("Tree already has a star!");
+                }
+                
+            }
             get { return _hasStar; }
         }
 

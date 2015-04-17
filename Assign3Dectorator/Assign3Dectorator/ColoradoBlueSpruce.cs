@@ -13,6 +13,8 @@ namespace Assign3Dectorator
     class ColoradoBlueSpruce : Tree
     {
         public ColoradoBlueSpruce() : base(20,"Colorado Blue Spruce")
-        {}
+        {
+            HasStar = false;
+        }
     }
 }

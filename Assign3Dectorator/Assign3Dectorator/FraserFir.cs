@@ -13,7 +13,9 @@ namespace Assign3Dectorator
     public class FraserFir : Tree
     {
         public FraserFir() : base(12,"Fraser Fir")
-        {}
+        {
+            HasStar = false;
+        }
 
     }
 }

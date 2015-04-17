@@ -19,8 +19,17 @@ namespace Assign3Dectorator
             t = new Ribbons(t);
             t = new Lights(t);
             t = new Ribbons(t);
+            t.HasStar = true;
+            t = new BallsRed(t);
 
             Console.WriteLine(t.PrintTree());
+
+            Tree s = new ColoradoBlueSpruce();
+            s = new Lights(s);
+            //s.HasStar = true;
+            s = new BallsSilver(s);
+
+            Console.WriteLine(s.PrintTree());
             Console.WriteLine("Press any key to exit");
             Console.ReadKey();
         }

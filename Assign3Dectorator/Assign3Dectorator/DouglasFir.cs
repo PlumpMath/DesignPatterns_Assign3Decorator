@@ -13,6 +13,8 @@ namespace Assign3Dectorator
     public class DouglasFir : Tree
     {
         public DouglasFir() : base(15,"Douglas Fir")
-        {}
+        {
+            HasStar = false;
+        }
     }
 }
