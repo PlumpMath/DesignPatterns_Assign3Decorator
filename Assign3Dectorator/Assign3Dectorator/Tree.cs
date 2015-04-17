@@ -4,6 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+ * James Felts
+ */
+
 namespace Assign3Dectorator
 {
     delegate T SelfApplicable<T>(SelfApplicable<T> self, T list, Tree t);
