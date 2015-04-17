@@ -858,6 +858,24 @@
           </stereotypeInstance>
         </appliedStereotypesInternal>
         <elementDefinition Id="22238af6-e2e4-40e3-8f74-2e486eaa874f" />
+        <targetEnds>
+          <association Id="9088598f-09ce-4778-8c52-6fd1edc3947c" isDerived="false" sourceEndRoleName="Star" targetEndRoleName="Tree" isLeaf="false" isAbstract="false">
+            <classMoniker Id="805958fc-5daa-4384-91e5-32ff0dc12d58" LastKnownName="Tree" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="bd7b0ff9-e7e6-4f46-b4e8-edc483964bd5" name="Star" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2ab43fdf-ef35-409c-90a6-cd344ce7c361" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="09cb8a73-c7f9-4515-b6dc-460d09f9b599" name="Tree" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="be3ab71b-c1e3-4d2e-9344-85f2332ba47e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e86e5cc7-003e-406f-93d6-fb7605fc0124" />
+          </association>
+        </targetEnds>
         <ownedAttributesInternal>
           <property Id="688065b1-be60-4b64-b113-4d09c2e9d966" name="Cost" isLeaf="false" isStatic="true" isReadOnly="true" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <referencesInternal>
@@ -2224,6 +2242,24 @@
           </stereotypeInstance>
         </appliedStereotypesInternal>
         <elementDefinition Id="4f9a9045-0abe-488e-9bbe-a417268c6b17" />
+        <targetEnds>
+          <association Id="8f1b56f2-24ae-4053-8706-ac3f10a6f139" isDerived="false" sourceEndRoleName="SelfApplicable" targetEndRoleName="Tree" isLeaf="false" isAbstract="false">
+            <classMoniker Id="805958fc-5daa-4384-91e5-32ff0dc12d58" LastKnownName="Tree" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="58dc6220-ebe3-4d66-86f2-6063a5a6dba5" name="SelfApplicable" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="5176cd62-90d1-46c8-9c89-72e324a9641d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="744fc0ef-450a-4094-8ae4-1776eb25a8fd" name="Tree" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="75a6895d-9f9c-4672-bc1f-99858242405e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6603ffc0-9483-4097-a00b-c763495af48c" />
+          </association>
+        </targetEnds>
         <ownedRedefinableTemplateSignatureInternal>
           <redefinableTemplateSignature Id="97e4de44-afaf-4b6a-aea0-3713fdb619d1" parameters="" name="RedefinableTemplateSignature1" isLeaf="false">
             <elementDefinition Id="deaae4bf-5c78-4748-8380-af45733316ee" />
